@@ -4,12 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.lastowski.components_test'
+    namespace 'com.lastowski.components-test'
     compileSdk 33
 
     defaultConfig {
         minSdk 23
         targetSdk 33
+        group "com.lastowski.components-test"
         versionCode 1
         versionName "1.0"
 
