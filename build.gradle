@@ -2,7 +2,7 @@
 buildscript {
 
     ext.versions = [
-            'composeVersion'    : '1.1.1',
+            'composeVersion'    : '1.0.5',
             'lifecycleVersion' : '2.4.0',
     ]
 

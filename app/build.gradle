@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.lastowski.components.test'
-    compileSdk 33
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 33
+        targetSdk 31
         group "com.lastowski.components.test"
         versionCode 1
         versionName "1.0"
@@ -43,9 +43,9 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.core:core-ktx:1.5.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.3.0'
 
     implementation "androidx.lifecycle:lifecycle-viewmodel:$versions.lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycleVersion"
@@ -58,7 +58,7 @@ dependencies {
     implementation "androidx.compose.material:material:$versions.composeVersion"
     implementation "androidx.compose.runtime:runtime-livedata:$versions.composeVersion"
     implementation "androidx.compose.ui:ui-tooling:$versions.composeVersion"
-    implementation "com.google.android.material:compose-theme-adapter:1.1.19"
+//    implementation "com.google.android.material:compose-theme-adapter:1.1.19"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
