@@ -4,7 +4,6 @@ buildscript {
     ext.versions = [
             'composeVersion'    : '1.2.1',
     ]
-
 }
 
 plugins {
