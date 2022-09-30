@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.lastowski.components-test'
+    namespace 'com.lastowski.components_test'
     compileSdk 33
 
     defaultConfig {
