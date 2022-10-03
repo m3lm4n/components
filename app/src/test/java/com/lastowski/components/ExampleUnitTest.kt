@@ -1,4 +1,4 @@
-package com.lastowski.components_test
+package com.lastowski.components
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.lastowski.components_test
+package com.lastowski.components
 
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
